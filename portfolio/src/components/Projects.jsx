@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
+import ProjectCard from './ProjectCard'
 
 const Project = () => {
+  const [projectOne, setProjectOne] = useState({title:'', tech:'', description: '', img: ''})
+  const [projectTwo, setProjectTwo] = useState({title: '', tech: '', description: '', img: ''})
+
   return (
-    <div> 
-      <h1>Project</h1>
+    <div className="projectGrid"> 
+     <ProjectCard/>
+     <ProjectCard/>
     </div>
   )
 }

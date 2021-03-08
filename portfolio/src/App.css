@@ -2,3 +2,14 @@
   text-align: center;
   height: 100vh;
 }
+
+.projectGrid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projectCard {
+  border: 2px solid black;
+  width: 40vh;
+  height: 40vh;
+}
