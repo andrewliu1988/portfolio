@@ -4,12 +4,80 @@
 }
 
 .projectGrid {
+  margin-top: 10vh;
   display: flex;
   justify-content: space-evenly;
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
 
 .projectCard {
   border: 2px solid black;
-  width: 40vh;
-  height: 40vh;
+  margin: 1vw 1vw 1vw 1vw;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+}
+
+.nav-bar {
+  display: flex;
+  /* visibility: collapse; */
+  /* direction: rtl; */
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  background-color: blanchedalmond;
+  width: 100vw;
+}
+
+a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding: 2vh 1vw 2vh 1vw;
+  background-color: blanchedalmond;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: fit-content;
+  font-size: 4rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.skill-icon {
+  font-size: 5rem;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0.1em;
 }

@@ -5,7 +5,7 @@ const ProjectCard = () => {
     <div className="projectCard">
       <h1>name of project</h1>
       <p>description</p>
-      <ul>Tech Used</ul>
+      <p>Tech Used</p>
       <img></img>
     </div>
   )
