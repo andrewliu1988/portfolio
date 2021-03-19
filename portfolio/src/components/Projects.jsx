@@ -7,7 +7,9 @@ const Project = () => {
 
   return (
     <div className="projectGrid"> 
-     <ProjectCard/>
+      <div className="projectOne">
+        <ProjectCard />
+      </div>
      <ProjectCard/>
     </div>
   )
